@@ -33,19 +33,21 @@
 
 2. Módulos maven
 
-    El módulo padre debe de tener el packaging de tipo **pom** mientas que los hijos deben de tener packaging de tipo **jar**.
+    Un módulo de maven es un sub-proyecto. El proyecto padre debe de tener el packaging de tipo **pom** mientas que los hijos deben de tener packaging de tipo **jar**.
     
-
 3. Pruebas unitarias
 
-    Hay 3 tipos de pruebas unitarias:
     1. Pruebas unitarias.
     1. Pruebas unitarias mockeadas.
     1. Pruebas unitarias de integración. Estas llevan el sufijo **IT**.
 
-4. Spring Boot
+4. Validaciones
 
     Las validaciones se realizan en los modelos a través de anotaciones.
     
-    Los mapeados también se realizan en los modelos usando la librería JMAPPER. https://www.baeldung.com/java-performance-mapping-frameworks
+5. Mapping de atributos
+
+    Los mapeados se realizan en los modelos usando la librería JMAPPER.
+    
+    https://www.baeldung.com/java-performance-mapping-frameworks
 
