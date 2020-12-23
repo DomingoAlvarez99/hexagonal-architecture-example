@@ -1,8 +1,8 @@
 ## Videoclub hexagonal
 > Este proyecto es un ejemplo práctico del desarrollo de una api siguiendo una Arquitectura Hexagonal.
 
-### Tecnologías necesarias
-`Java` `Maven` `Spring-boot` `MongoDB` `PostgreSQL` 
+### Tecnologías usadas
+`Java` `Maven` `Spring-boot` `MongoDB` `Swagger` 
 
 ### :gear: Instalación del proyecto
 1. Clonar el repositorio en tu equipo:
@@ -35,19 +35,24 @@
 
     Un módulo de maven es un sub-proyecto. El proyecto padre debe de tener el packaging de tipo **pom** mientas que los hijos deben de tener packaging de tipo **jar**.
     
-3. Pruebas unitarias
+3. Tipos de pruebas unitarias
 
-    1. Pruebas unitarias.
+    1. Pruebas unitarias "normales".
     1. Pruebas unitarias mockeadas.
     1. Pruebas unitarias de integración. Estas llevan el sufijo **IT**.
 
 4. Validaciones
 
-    Las validaciones se realizan en los modelos a través de anotaciones.
+    Las validaciones de los modelos se realizan a través de anotaciones.
     
 5. Mapping de atributos
 
-    Los mapeados se realizan en los modelos usando la librería JMAPPER.
+    Los mapeados de atributos se realizan usando la librería JMAPPER.
     
     https://www.baeldung.com/java-performance-mapping-frameworks
+
+6. Swagger
+
+   http://localhost:7070/api/v0/swagger-ui.html#
+  
 
