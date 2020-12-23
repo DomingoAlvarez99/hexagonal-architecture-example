@@ -1,8 +1,8 @@
 package org.dalvarez.videoclub_persistence_mongodb.utils;
 
-import com.dalvarez.videoclub.domain.models.Category;
-import com.dalvarez.videoclub.domain.models.Company;
-import com.dalvarez.videoclub.domain.models.Movie;
+import org.dalvarez.videoclub.domain.models.Category;
+import org.dalvarez.videoclub.domain.models.Company;
+import org.dalvarez.videoclub.domain.models.Movie;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -52,8 +52,8 @@ public class Utils {
                 .build();
     }
 
-    public static Movie[] getDefaultMovies(){
-        return new Movie[] {
+    public static Movie[] getDefaultMovies() {
+        return new Movie[]{
                 Movie.builder()
                         .id(DEFAULT_MOVIES_ELEMENT1_ID)
                         .name(DEFAULT_MOVIE_NAME)

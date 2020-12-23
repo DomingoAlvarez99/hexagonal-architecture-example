@@ -24,19 +24,19 @@
         -->
         <!-- Domain -->
         <dependency>
-            <groupId>com.dalvarez.videoclub</groupId>
+            <groupId>org.dalvarez.videoclub</groupId>
             <artifactId>videoclub-domain</artifactId>
             <version>${project.version}</version>
         </dependency>
         <!-- MongoDB -->
         <dependency>
-            <groupId>com.dalvarez.videoclub</groupId>
+            <groupId>org.dalvarez.videoclub</groupId>
             <artifactId>videoclub-persistence-mongodb</artifactId>
             <version>${project.version}</version>
         </dependency>
         <!-- Rest Web -->
         <dependency>
-            <groupId>com.dalvarez.videoclub</groupId>
+            <groupId>org.dalvarez.videoclub</groupId>
             <artifactId>videoclub-rest-web</artifactId>
             <version>${project.version}</version>
         </dependency>

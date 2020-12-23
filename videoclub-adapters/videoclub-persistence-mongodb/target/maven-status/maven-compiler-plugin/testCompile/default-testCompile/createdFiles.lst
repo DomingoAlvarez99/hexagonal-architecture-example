@@ -1,6 +1,6 @@
-com\dalvarez\videoclub_persistence_mongodb\config\TestConfig.class
-com\dalvarez\videoclub_persistence_mongodb\service\SeederService.class
-com\dalvarez\videoclub_persistence_mongodb\adapters\MoviePersistenceIT.class
-com\dalvarez\videoclub_persistence_mongodb\config\VideoclubPersistenceMongodbConfig.class
-com\dalvarez\videoclub_persistence_mongodb\adapters\MoviePersistenceTest.class
-com\dalvarez\videoclub_persistence_mongodb\utils\Utils.class
+org\dalvarez\videoclub_persistence_mongodb\config\TestConfig.class
+org\dalvarez\videoclub_persistence_mongodb\service\SeederService.class
+org\dalvarez\videoclub_persistence_mongodb\adapters\MoviePersistenceIT.class
+org\dalvarez\videoclub_persistence_mongodb\config\VideoclubPersistenceMongodbConfig.class
+org\dalvarez\videoclub_persistence_mongodb\adapters\MoviePersistenceTest.class
+org\dalvarez\videoclub_persistence_mongodb\utils\Utils.class

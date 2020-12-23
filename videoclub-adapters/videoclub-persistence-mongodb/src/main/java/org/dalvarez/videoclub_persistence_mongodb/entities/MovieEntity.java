@@ -1,6 +1,6 @@
 package org.dalvarez.videoclub_persistence_mongodb.entities;
 
-import com.dalvarez.videoclub.domain.models.Movie;
+import org.dalvarez.videoclub.domain.models.Movie;
 import com.googlecode.jmapper.JMapper;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

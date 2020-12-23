@@ -1,8 +1,8 @@
 package org.dalvarez.videoclub.application;
 
-import com.dalvarez.videoclub.domain.ports.MoviePersistence;
-import com.dalvarez.videoclub.domain.services.MovieService;
-import com.dalvarez.videoclub.domain.services.impl.MovieServiceImpl;
+import org.dalvarez.videoclub.domain.ports.MoviePersistence;
+import org.dalvarez.videoclub.domain.services.MovieService;
+import org.dalvarez.videoclub.domain.services.impl.MovieServiceImpl;
 import org.dalvarez.videoclub_persistence_mongodb.adapters.MoviePersistenceMongodbAdapter;
 import org.dalvarez.videoclub_persistence_mongodb.repositories.MovieRepository;
 import org.dalvarez.videoclub_rest_web.exception_handler.ApiExceptionHandler;

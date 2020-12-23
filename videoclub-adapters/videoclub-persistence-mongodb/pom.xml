@@ -27,7 +27,7 @@
         </dependency>
         <!-- Domain -->
         <dependency>
-            <groupId>com.dalvarez.videoclub</groupId>
+            <groupId>org.dalvarez.videoclub</groupId>
             <artifactId>videoclub-domain</artifactId>
             <version>${project.version}</version>
         </dependency>

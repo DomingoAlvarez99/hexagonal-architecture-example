@@ -1,11 +1,13 @@
 package org.dalvarez.videoclub.domain.services;
 
-import com.dalvarez.videoclub.domain.models.Movie;
+import org.dalvarez.videoclub.domain.models.Movie;
 import org.dalvarez.videoclub.domain.config.TestConfig;
 import org.dalvarez.videoclub.domain.utils.Utils;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.times;

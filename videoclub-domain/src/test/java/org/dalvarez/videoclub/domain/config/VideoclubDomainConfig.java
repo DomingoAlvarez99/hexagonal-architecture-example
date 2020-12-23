@@ -1,8 +1,8 @@
 package org.dalvarez.videoclub.domain.config;
 
-import com.dalvarez.videoclub.domain.ports.MoviePersistence;
-import com.dalvarez.videoclub.domain.services.MovieService;
-import com.dalvarez.videoclub.domain.services.impl.MovieServiceImpl;
+import org.dalvarez.videoclub.domain.ports.MoviePersistence;
+import org.dalvarez.videoclub.domain.services.MovieService;
+import org.dalvarez.videoclub.domain.services.impl.MovieServiceImpl;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
