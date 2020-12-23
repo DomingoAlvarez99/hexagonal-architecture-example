@@ -1,6 +1,6 @@
 package org.dalvarez.videoclub.application;
 
-import org.dalvarez.videoclub_rest_web.exception_handler.ErrorResponse;
+import org.dalvarez.videoclub.rest_web.exception_handler.ErrorResponse;
 import com.fasterxml.classmate.TypeResolver;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;

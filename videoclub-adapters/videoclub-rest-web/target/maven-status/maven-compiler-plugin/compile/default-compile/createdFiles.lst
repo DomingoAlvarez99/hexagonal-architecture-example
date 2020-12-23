@@ -1,6 +1,6 @@
-org\dalvarez\videoclub_rest_web\dtos\CreateMovieDto.class
-org\dalvarez\videoclub_rest_web\exception_handler\ErrorResponse.class
-org\dalvarez\videoclub_rest_web\controllers\MovieController.class
-org\dalvarez\videoclub_rest_web\exception_handler\ApiExceptionHandler.class
-org\dalvarez\videoclub_rest_web\exception_handler\ErrorResponse$ErrorResponseBuilder.class
-org\dalvarez\videoclub_rest_web\dtos\BasicMovieDto.class
+org\dalvarez\videoclub\rest_web\controllers\MovieController.class
+org\dalvarez\videoclub\rest_web\dtos\BasicMovieDto.class
+org\dalvarez\videoclub\rest_web\exception_handler\ErrorResponse.class
+org\dalvarez\videoclub\rest_web\dtos\CreateMovieDto.class
+org\dalvarez\videoclub\rest_web\exception_handler\ErrorResponse$ErrorResponseBuilder.class
+org\dalvarez\videoclub\rest_web\exception_handler\ApiExceptionHandler.class

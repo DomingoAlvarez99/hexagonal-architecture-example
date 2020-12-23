@@ -1,8 +1,8 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub_persistence_mongodb.entities,CategoryEntity.CategoryEntityBuilder,38,0,0,0,1,0,5,0,5,0
-org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub_persistence_mongodb.entities,MovieEntity.MovieEntityBuilder,98,0,0,0,1,0,10,0,10,0
-org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub_persistence_mongodb.entities,CompanyEntity,119,66,27,3,2,5,20,8,5,8
-org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub_persistence_mongodb.entities,MovieEntity,232,165,55,7,2,13,36,18,5,18
-org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub_persistence_mongodb.entities,CategoryEntity,92,47,20,2,2,4,16,6,5,6
-org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub_persistence_mongodb.entities,CompanyEntity.CompanyEntityBuilder,50,0,0,0,1,0,6,0,6,0
-org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub_persistence_mongodb.adapters,MoviePersistenceMongodbAdapter,94,60,0,0,16,12,9,6,9,6
+org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub.persistence_mongodb.adapters,MoviePersistenceMongodbAdapter,94,60,0,0,16,12,9,6,9,6
+org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub.persistence_mongodb.entities,CategoryEntity,92,47,20,2,2,4,16,6,5,6
+org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub.persistence_mongodb.entities,CategoryEntity.CategoryEntityBuilder,38,0,0,0,1,0,5,0,5,0
+org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub.persistence_mongodb.entities,MovieEntity.MovieEntityBuilder,98,0,0,0,1,0,10,0,10,0
+org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub.persistence_mongodb.entities,MovieEntity,232,165,55,7,2,13,36,18,5,18
+org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub.persistence_mongodb.entities,CompanyEntity.CompanyEntityBuilder,50,0,0,0,1,0,6,0,6,0
+org.dalvarez.videoclub.videoclub-persistence-mongodb,org.dalvarez.videoclub.persistence_mongodb.entities,CompanyEntity,119,66,27,3,2,5,20,8,5,8

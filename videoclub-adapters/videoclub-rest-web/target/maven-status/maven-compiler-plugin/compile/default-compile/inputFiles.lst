@@ -1,5 +1,5 @@
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub_rest_web\exception_handler\ErrorResponse.java
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub_rest_web\dtos\BasicMovieDto.java
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub_rest_web\dtos\CreateMovieDto.java
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub_rest_web\controllers\MovieController.java
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub_rest_web\exception_handler\ApiExceptionHandler.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub\rest_web\dtos\BasicMovieDto.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub\rest_web\dtos\CreateMovieDto.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub\rest_web\exception_handler\ApiExceptionHandler.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub\rest_web\exception_handler\ErrorResponse.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-rest-web\src\main\java\org\dalvarez\videoclub\rest_web\controllers\MovieController.java
