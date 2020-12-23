@@ -1,0 +1,5 @@
+com\dalvarez\videoclub_rest_web\dtos\BasicMovieDto.class
+com\dalvarez\videoclub_rest_web\controllers\MovieController.class
+com\dalvarez\videoclub_rest_web\exception_handler\ApiExceptionHandler.class
+com\dalvarez\videoclub_rest_web\exception_handler\ErrorResponse.class
+com\dalvarez\videoclub_rest_web\exception_handler\ErrorResponse$ErrorResponseBuilder.class

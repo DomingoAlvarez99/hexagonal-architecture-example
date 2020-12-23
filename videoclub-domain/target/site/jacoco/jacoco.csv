@@ -1,0 +1,12 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.models,Category,126,13,22,0,4,2,20,2,9,2
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.models,Company.CompanyBuilder,22,28,0,0,0,1,1,5,1,5
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.models,Movie,299,70,61,1,1,10,38,14,7,14
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.models,Company,164,21,29,1,4,3,25,3,10,3
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.models,Movie.MovieBuilder,42,56,0,0,0,1,1,9,1,9
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.models,Category.CategoryBuilder,17,21,0,0,0,1,1,4,1,4
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.services.impl,MovieServiceImpl,44,0,0,0,11,0,8,0,8,0
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.exceptions,ConflictException,4,0,0,0,2,0,1,0,1,0
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.exceptions,BadRequestException,4,0,0,0,2,0,1,0,1,0
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.exceptions,NotFoundException,4,0,0,0,2,0,1,0,1,0
+com.dalvarez.videoclub.videoclub-domain,com.dalvarez.videoclub.domain.models.validators,ListNotEmptyValidator,0,13,0,4,0,3,0,5,0,3

@@ -1,0 +1,12 @@
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\models\Company.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\ports\GenericPersistence.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\services\MovieService.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\models\Movie.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\models\validators\ListNotEmpty.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\models\validators\ListNotEmptyValidator.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\models\Category.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\services\impl\MovieServiceImpl.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\exceptions\BadRequestException.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\exceptions\ConflictException.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\exceptions\NotFoundException.java
+C:\Develop\Spring-Boot\videoclub\videoclub-domain\src\main\java\com\dalvarez\videoclub\domain\ports\MoviePersistence.java
