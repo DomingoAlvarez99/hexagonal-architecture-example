@@ -6,7 +6,7 @@
 
     <parent>
         <artifactId>videoclub</artifactId>
-        <groupId>com.dalvarez.videoclub</groupId>
+        <groupId>org.dalvarez.videoclub</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
