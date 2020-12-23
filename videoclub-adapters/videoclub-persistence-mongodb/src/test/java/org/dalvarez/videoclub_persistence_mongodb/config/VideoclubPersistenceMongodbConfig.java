@@ -1,6 +1,6 @@
 package org.dalvarez.videoclub_persistence_mongodb.config;
 
-import com.dalvarez.videoclub.domain.ports.MoviePersistence;
+import org.dalvarez.videoclub.domain.ports.MoviePersistence;
 import org.dalvarez.videoclub_persistence_mongodb.adapters.MoviePersistenceMongodbAdapter;
 import org.dalvarez.videoclub_persistence_mongodb.repositories.MovieRepository;
 import org.dalvarez.videoclub_persistence_mongodb.service.SeederService;

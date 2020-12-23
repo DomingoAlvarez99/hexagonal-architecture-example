@@ -1,8 +1,9 @@
 package org.dalvarez.videoclub_rest_web.controllers;
 
-import com.dalvarez.videoclub.domain.models.Movie;
-import com.dalvarez.videoclub.domain.services.MovieService;
+import org.dalvarez.videoclub.domain.models.Movie;
+import org.dalvarez.videoclub.domain.services.MovieService;
 import org.dalvarez.videoclub_rest_web.dtos.BasicMovieDto;
+import org.dalvarez.videoclub_rest_web.dtos.CreateMovieDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -42,8 +43,8 @@ public class MovieController {
     }
 
     @PostMapping
-    public ResponseEntity<Movie> create(@RequestBody Movie movie) {
-        return ResponseEntity.ok(movieService.create(movie));
+    public ResponseEntity<Movie> create(@RequestBody CreateMovieDto createMovieDto) {
+        return ResponseEntity.ok(movieService.create(createMovieDto.toMovie()));
     }
 
     @PutMapping

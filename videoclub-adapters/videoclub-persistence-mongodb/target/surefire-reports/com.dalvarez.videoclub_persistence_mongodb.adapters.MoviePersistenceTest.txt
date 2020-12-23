@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.dalvarez.videoclub_persistence_mongodb.adapters.MoviePersistenceTest
--------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.695 s - in com.dalvarez.videoclub_persistence_mongodb.adapters.MoviePersistenceTest

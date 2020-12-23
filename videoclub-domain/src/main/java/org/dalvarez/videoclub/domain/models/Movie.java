@@ -1,5 +1,6 @@
 package org.dalvarez.videoclub.domain.models;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.googlecode.jmapper.annotations.JMap;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -35,6 +36,7 @@ public class Movie {
     @NotNull
     @PastOrPresent
     @JMap
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate publicationDate;
 
     @NotEmpty
@@ -44,6 +46,7 @@ public class Movie {
     @NotNull
     @FutureOrPresent
     @JMap
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate registrationDate;
 
     @NotNull

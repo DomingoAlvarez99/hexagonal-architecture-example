@@ -4,11 +4,13 @@ import org.dalvarez.videoclub.domain.models.Movie;
 import org.dalvarez.videoclub.domain.ports.MoviePersistence;
 import org.dalvarez.videoclub.domain.services.MovieService;
 
+import java.time.LocalDate;
+import java.util.UUID;
 import java.util.stream.Stream;
 
 public class MovieServiceImpl implements MovieService {
 
-    private MoviePersistence moviePersistence;
+    private final MoviePersistence moviePersistence;
 
     public MovieServiceImpl(MoviePersistence moviePersistence) {
         this.moviePersistence = moviePersistence;
@@ -25,7 +27,10 @@ public class MovieServiceImpl implements MovieService {
     }
 
     @Override
-    public Movie create(final Movie movie) {
+    public Movie create(Movie movie) {
+        movie.setId(UUID.randomUUID().toString());
+        movie.setRegistrationDate(LocalDate.now());
+
         return moviePersistence.create(movie);
     }
 
@@ -45,7 +50,7 @@ public class MovieServiceImpl implements MovieService {
     }
 
     @Override
-    public Movie updateDescription(String id, String description) {
+    public Movie updateDescription(final String id, final String description) {
         return moviePersistence.updateDescription(id, description);
     }
 

@@ -1,8 +1,8 @@
 package org.dalvarez.videoclub_persistence_mongodb.adapters;
 
-import com.dalvarez.videoclub.domain.exceptions.NotFoundException;
-import com.dalvarez.videoclub.domain.models.Movie;
-import com.dalvarez.videoclub.domain.ports.MoviePersistence;
+import org.dalvarez.videoclub.domain.exceptions.NotFoundException;
+import org.dalvarez.videoclub.domain.models.Movie;
+import org.dalvarez.videoclub.domain.ports.MoviePersistence;
 import org.dalvarez.videoclub_persistence_mongodb.config.TestConfig;
 import org.dalvarez.videoclub_persistence_mongodb.utils.Utils;
 import org.junit.jupiter.api.Test;
@@ -44,9 +44,7 @@ class MoviePersistenceTest {
     void testCreateExpectedNotFoundExceptionThrown() {
         given(moviePersistence.create(any())).willThrow(NotFoundException.class);
 
-        assertThrows(NotFoundException.class, () -> {
-            moviePersistence.create(any());
-        });
+        assertThrows(NotFoundException.class, () -> moviePersistence.create(any()));
 
         verify(moviePersistence, times(1)).create(any());
     }

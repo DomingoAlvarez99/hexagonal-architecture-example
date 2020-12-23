@@ -1,9 +1,9 @@
 package org.dalvarez.videoclub_persistence_mongodb.adapters;
 
-import com.dalvarez.videoclub.domain.exceptions.ConflictException;
-import com.dalvarez.videoclub.domain.exceptions.NotFoundException;
-import com.dalvarez.videoclub.domain.models.Movie;
-import com.dalvarez.videoclub.domain.ports.MoviePersistence;
+import org.dalvarez.videoclub.domain.exceptions.ConflictException;
+import org.dalvarez.videoclub.domain.exceptions.NotFoundException;
+import org.dalvarez.videoclub.domain.models.Movie;
+import org.dalvarez.videoclub.domain.ports.MoviePersistence;
 import org.dalvarez.videoclub_persistence_mongodb.entities.MovieEntity;
 import org.dalvarez.videoclub_persistence_mongodb.repositories.MovieRepository;
 import org.springframework.transaction.annotation.Transactional;

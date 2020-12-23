@@ -1,5 +1,5 @@
-com\dalvarez\videoclub\domain\config\TestConfig.class
-com\dalvarez\videoclub\domain\models\MovieTest.class
-com\dalvarez\videoclub\domain\utils\Utils.class
-com\dalvarez\videoclub\domain\config\VideoclubDomainConfig.class
-com\dalvarez\videoclub\domain\services\MovieServiceTest.class
+org\dalvarez\videoclub\domain\models\MovieTest.class
+org\dalvarez\videoclub\domain\config\TestConfig.class
+org\dalvarez\videoclub\domain\config\VideoclubDomainConfig.class
+org\dalvarez\videoclub\domain\utils\Utils.class
+org\dalvarez\videoclub\domain\services\MovieServiceTest.class

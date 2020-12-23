@@ -1,6 +1,6 @@
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\com\dalvarez\videoclub_persistence_mongodb\config\TestConfig.java
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\com\dalvarez\videoclub_persistence_mongodb\adapters\MoviePersistenceIT.java
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\com\dalvarez\videoclub_persistence_mongodb\service\SeederService.java
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\com\dalvarez\videoclub_persistence_mongodb\adapters\MoviePersistenceTest.java
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\com\dalvarez\videoclub_persistence_mongodb\config\VideoclubPersistenceMongodbConfig.java
-C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\com\dalvarez\videoclub_persistence_mongodb\utils\Utils.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\org\dalvarez\videoclub_persistence_mongodb\adapters\MoviePersistenceIT.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\org\dalvarez\videoclub_persistence_mongodb\utils\Utils.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\org\dalvarez\videoclub_persistence_mongodb\config\VideoclubPersistenceMongodbConfig.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\org\dalvarez\videoclub_persistence_mongodb\config\TestConfig.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\org\dalvarez\videoclub_persistence_mongodb\adapters\MoviePersistenceTest.java
+C:\Develop\Spring-Boot\videoclub\videoclub-adapters\videoclub-persistence-mongodb\src\test\java\org\dalvarez\videoclub_persistence_mongodb\service\SeederService.java

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MoviePersistenceMongodbAdapter.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">org.dalvarez.videoclub.videoclub-persistence-mongodb</a> &gt; <a href="index.source.html" class="el_package">org.dalvarez.videoclub_persistence_mongodb.adapters</a> &gt; <span class="el_source">MoviePersistenceMongodbAdapter.java</span></div><h1>MoviePersistenceMongodbAdapter.java</h1><pre class="source lang-java linenums">package org.dalvarez.videoclub_persistence_mongodb.adapters;
+
+import org.dalvarez.videoclub.domain.exceptions.ConflictException;
+import org.dalvarez.videoclub.domain.exceptions.NotFoundException;
+import org.dalvarez.videoclub.domain.models.Movie;
+import org.dalvarez.videoclub.domain.ports.MoviePersistence;
+import org.dalvarez.videoclub_persistence_mongodb.entities.MovieEntity;
+import org.dalvarez.videoclub_persistence_mongodb.repositories.MovieRepository;
+import org.springframework.transaction.annotation.Transactional;
+
+import javax.validation.Valid;
+import java.util.stream.Stream;
+
+@Transactional
+public class MoviePersistenceMongodbAdapter implements MoviePersistence {
+
+    private MovieRepository movieRepository;
+
+<span class="fc" id="L19">    public MoviePersistenceMongodbAdapter(MovieRepository movieRepository) {</span>
+<span class="fc" id="L20">        this.movieRepository = movieRepository;</span>
+<span class="fc" id="L21">    }</span>
+
+    @Override
+    public Stream&lt;Movie&gt; readAll() {
+<span class="nc" id="L25">        return movieRepository.findAll()</span>
+<span class="nc" id="L26">                .stream()</span>
+<span class="nc" id="L27">                .findAny().map(e -&gt; movieRepository.findAll().stream().map(MovieEntity::toMovie))</span>
+<span class="nc" id="L28">                .orElseThrow(() -&gt; new NotFoundException(&quot;Movies not found&quot;));</span>
+
+    }
+
+    @Override
+    public Movie readById(String id) {
+<span class="fc" id="L34">        return movieRepository.findById(id)</span>
+<span class="fc" id="L35">                .orElseThrow(() -&gt; new NotFoundException(&quot;Movie id: &quot; + id))</span>
+<span class="fc" id="L36">                .toMovie();</span>
+    }
+
+    @Override
+    public Movie create(@Valid Movie movie) {
+<span class="fc" id="L41">        assertIdNotExist(movie.getId());</span>
+
+<span class="fc" id="L43">        return movieRepository.save(MovieEntity.fromMovie(movie))</span>
+<span class="fc" id="L44">                .toMovie();</span>
+    }
+
+    @Override
+    public Movie update(@Valid Movie movie) {
+<span class="nc" id="L49">        assertIdNotExist(movie.getId());</span>
+
+<span class="nc" id="L51">        return movieRepository.save(MovieEntity.fromMovie(movie))</span>
+<span class="nc" id="L52">                .toMovie();</span>
+    }
+
+    @Override
+    public Movie updateDescription(String id, String description) {
+<span class="nc" id="L57">        MovieEntity movieEntity = movieRepository.findById(id)</span>
+<span class="nc" id="L58">                .orElseThrow(() -&gt; new NotFoundException(&quot;Movie id: &quot; + id));</span>
+<span class="nc" id="L59">        movieEntity.setDescription(description);</span>
+
+<span class="nc" id="L61">        return movieRepository.save(movieEntity).toMovie();</span>
+    }
+
+    @Override
+    public void deleteById(String id) {
+<span class="nc" id="L66">        movieRepository.deleteById(id);</span>
+<span class="nc" id="L67">    }</span>
+
+    @Override
+    public Movie findByName(String name) {
+<span class="nc" id="L71">        return movieRepository.findByName(name)</span>
+<span class="nc" id="L72">                .orElseThrow(() -&gt; new NotFoundException(&quot;Movie name: &quot; + name))</span>
+<span class="nc" id="L73">                .toMovie();</span>
+    }
+
+    private void assertIdNotExist(String id) {
+<span class="fc" id="L77">        movieRepository.findById(id).ifPresent(m -&gt; {</span>
+<span class="fc" id="L78">            throw new ConflictException(&quot;Movie id already exists: &quot; + id);</span>
+        });
+<span class="fc" id="L80">    }</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
