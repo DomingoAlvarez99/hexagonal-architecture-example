@@ -1,6 +1,0 @@
-org\dalvarez\videoclub\persistence_mongodb\utils\Utils.class
-org\dalvarez\videoclub\persistence_mongodb\adapters\MoviePersistenceTest.class
-org\dalvarez\videoclub\persistence_mongodb\adapters\MoviePersistenceIT.class
-org\dalvarez\videoclub\persistence_mongodb\service\SeederService.class
-org\dalvarez\videoclub\persistence_mongodb\config\VideoclubPersistenceMongodbConfig.class
-org\dalvarez\videoclub\persistence_mongodb\config\TestConfig.class

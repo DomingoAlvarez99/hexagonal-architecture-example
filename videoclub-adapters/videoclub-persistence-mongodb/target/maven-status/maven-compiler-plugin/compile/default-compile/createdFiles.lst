@@ -1,9 +1,0 @@
-org\dalvarez\videoclub\persistence_mongodb\entities\CategoryEntity.class
-org\dalvarez\videoclub\persistence_mongodb\entities\MovieEntity$MovieEntityBuilder.class
-org\dalvarez\videoclub\persistence_mongodb\entities\CompanyEntity$CompanyEntityBuilder.class
-org\dalvarez\videoclub\persistence_mongodb\entities\CategoryEntity$CategoryEntityBuilder.class
-org\dalvarez\videoclub\persistence_mongodb\adapters\MoviePersistenceMongodbAdapter.class
-org\dalvarez\videoclub\persistence_mongodb\entities\CompanyEntity.class
-org\dalvarez\videoclub\persistence_mongodb\entities\MovieEntity.class
-org\dalvarez\videoclub\persistence_mongodb\repositories\MovieRepository.class
-org\dalvarez\videoclub\persistence_mongodb\repositories\CompanyRepository.class
