@@ -1,8 +1,8 @@
 ## Videoclub hexagonal
 > Este proyecto es un ejemplo práctico del desarrollo de una api siguiendo una Arquitectura Hexagonal.
 
-### Tecnologías usadas
-`Java` `Maven` `Spring-boot` `MongoDB` `Swagger` 
+### Tecnologías necesarias
+`Java` `Maven`
 
 ### :gear: Instalación del proyecto
 1. Clonar el repositorio en tu equipo:
