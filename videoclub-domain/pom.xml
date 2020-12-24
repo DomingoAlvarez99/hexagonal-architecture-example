@@ -13,5 +13,4 @@
     <artifactId>videoclub-domain</artifactId>
     <packaging>jar</packaging>
     <name>${project.groupId}.${project.artifactId}</name>
-
 </project>

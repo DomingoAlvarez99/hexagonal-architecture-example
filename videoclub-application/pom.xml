@@ -15,13 +15,6 @@
     <name>${project.groupId}.${project.artifactId}</name>
 
     <dependencies>
-        <!-- Asynchronous programming -->
-        <!--
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webflux</artifactId>
-        </dependency>
-        -->
         <!-- Domain -->
         <dependency>
             <groupId>org.dalvarez.videoclub</groupId>

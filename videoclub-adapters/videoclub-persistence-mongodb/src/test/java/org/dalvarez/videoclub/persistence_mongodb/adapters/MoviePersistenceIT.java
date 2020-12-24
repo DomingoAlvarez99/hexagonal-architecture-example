@@ -4,14 +4,12 @@ import org.dalvarez.videoclub.domain.exceptions.ConflictException;
 import org.dalvarez.videoclub.domain.exceptions.NotFoundException;
 import org.dalvarez.videoclub.domain.models.Movie;
 import org.dalvarez.videoclub.domain.ports.MoviePersistence;
-import org.dalvarez.videoclub.persistence_mongodb.utils.Utils;
 import org.dalvarez.videoclub.persistence_mongodb.config.TestConfig;
 import org.dalvarez.videoclub.persistence_mongodb.service.SeederService;
+import org.dalvarez.videoclub.persistence_mongodb.utils.Utils;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import org.springframework.beans.factory.annotation.Autowired;
-
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;

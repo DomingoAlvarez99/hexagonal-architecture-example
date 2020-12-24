@@ -3,8 +3,8 @@ package org.dalvarez.videoclub.persistence_mongodb.adapters;
 import org.dalvarez.videoclub.domain.exceptions.NotFoundException;
 import org.dalvarez.videoclub.domain.models.Movie;
 import org.dalvarez.videoclub.domain.ports.MoviePersistence;
-import org.dalvarez.videoclub.persistence_mongodb.utils.Utils;
 import org.dalvarez.videoclub.persistence_mongodb.config.TestConfig;
+import org.dalvarez.videoclub.persistence_mongodb.utils.Utils;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.mock.mockito.MockBean;
 

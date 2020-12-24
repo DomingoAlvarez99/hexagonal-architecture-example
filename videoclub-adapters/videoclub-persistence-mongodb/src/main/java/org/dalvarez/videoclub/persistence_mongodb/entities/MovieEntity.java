@@ -1,11 +1,11 @@
 package org.dalvarez.videoclub.persistence_mongodb.entities;
 
-import org.dalvarez.videoclub.domain.models.Movie;
 import com.googlecode.jmapper.JMapper;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.dalvarez.videoclub.domain.models.Movie;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 

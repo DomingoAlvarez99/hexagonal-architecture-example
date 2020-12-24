@@ -53,8 +53,8 @@ public class ApiExceptionHandler {
         int httpCode = httpStatus.value();
         String httpName = httpStatus.name();
         String clazz = getClassName(ex);
-        String method = ex.getStackTrace()[0].getMethodName();
-        int line = ex.getStackTrace()[0].getLineNumber();
+        String method = ex.getStackTrace().length > 0 ? ex.getStackTrace()[0].getMethodName() : "Not found";
+        int line = ex.getStackTrace().length > 0 ? ex.getStackTrace()[0].getLineNumber() : 0;
 
         return ErrorResponse.builder()
                 .clazz(clazz)
@@ -72,7 +72,7 @@ public class ApiExceptionHandler {
         try {
             className = Class.forName(ex.getStackTrace()[0].getClassName()).getName();
 
-        } catch (ClassNotFoundException ignored) {
+        } catch (Exception ignored) {
 
         }
 

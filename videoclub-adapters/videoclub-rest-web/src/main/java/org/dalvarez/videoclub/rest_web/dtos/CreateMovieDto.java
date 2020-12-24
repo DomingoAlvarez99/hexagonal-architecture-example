@@ -1,10 +1,10 @@
 package org.dalvarez.videoclub.rest_web.dtos;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.dalvarez.videoclub.domain.models.Category;
 import org.dalvarez.videoclub.domain.models.Company;
 import org.dalvarez.videoclub.domain.models.Movie;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 import java.util.List;

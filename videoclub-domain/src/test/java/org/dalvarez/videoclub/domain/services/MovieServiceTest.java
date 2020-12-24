@@ -1,7 +1,7 @@
 package org.dalvarez.videoclub.domain.services;
 
-import org.dalvarez.videoclub.domain.models.Movie;
 import org.dalvarez.videoclub.domain.config.TestConfig;
+import org.dalvarez.videoclub.domain.models.Movie;
 import org.dalvarez.videoclub.domain.utils.Utils;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.mock.mockito.MockBean;
