@@ -1,5 +1,5 @@
 ## Videoclub hexagonal
-> Este proyecto es un ejemplo práctico del desarrollo de una api siguiendo una Arquitectura Hexagonal.
+> Este proyecto es un ejemplo práctico del desarrollo de una API REST siguiendo una Arquitectura Hexagonal.
 
 ### Tecnologías necesarias
 `Java` `Maven`
