@@ -18,6 +18,15 @@
         <version>2.2.6.RELEASE</version>
     </parent>
 
+    <profiles>
+        <profile>
+            <id>no-tests</id>
+            <properties>
+                <maven.test.skip>true</maven.test.skip>
+            </properties>
+        </profile>
+    </profiles>
+
     <properties>
         <!-- Encode -->
         <encoding>UTF-8</encoding>
@@ -71,13 +80,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- Web Asynchronous -->
-        <!--
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-webflux</artifactId>
-        </dependency>
-        -->
         <!-- Validation -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -147,6 +149,13 @@
                         <version>${junit-platform-surefire-provider-version}</version>
                     </dependency>
                 </dependencies>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
