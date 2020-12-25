@@ -64,3 +64,8 @@
 1. Desplegar el proyecto localmente: `> mvn clean install`
 2. Arrancar el proyecto: `> mvn spring-boot:run -pl videoclub-application`
 
+### :heavy_check_mark: Testing
+1. Ejecutar tests unitarios: `> mvn test`
+2. Ejecutar tests IT: `> mvn failsafe:integration-test`
+3. Perfil para omitir tests: `>-Pno-tests`
+
