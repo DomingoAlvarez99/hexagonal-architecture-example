@@ -15,7 +15,7 @@
    1. Marcar **Create Project from external model**, elegir **Maven**.  
 
 ### :wrench: Configuración
-1. Bean & context
+1. Persistence bean & context
    1. MongoDB
    ```java
    package org.dalvarez.videoclub.application;
