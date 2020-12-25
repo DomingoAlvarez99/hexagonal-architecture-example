@@ -1,0 +1,10 @@
+${AnsiStyle.BOLD}${AnsiColor.RED}____   ____.__     .___                        .__          ___.
+${AnsiColor.YELLOW}\   \ /   /|__|  __| _/  ____    ____    ____  |  |   __ __ \_ |__
+${AnsiColor.GREEN} \   Y   / |  | / __ | _/ __ \  /  _ \ _/ ___\ |  |  |  |  \ | __ \
+${AnsiColor.BLUE}  \     /  |  |/ /_/ | \  ___/ (  <_> )\  \___ |  |__|  |  / | \_\ \
+${AnsiColor.BRIGHT_CYAN}   \___/   |__|\____ |  \___  > \____/  \___  >|____/|____/  |___  /
+${AnsiColor.MAGENTA}                    \/      \/              \/                   \/
+
+${AnsiColor.GREEN}:: Running Java           ${AnsiColor.DEFAULT}v${java.version}
+${AnsiColor.GREEN}:: Running Spring Boot    ${AnsiColor.DEFAULT}v${spring-boot.version}
+${AnsiStyle.NORMAL}

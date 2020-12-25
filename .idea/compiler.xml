@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="videoclub-domain" />
         <module name="videoclub-persistence-mongodb" />
+        <module name="videoclub-persistence-h2" />
         <module name="videoclub-rest-web" />
         <module name="videoclub-application" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="videoclub-adapters" options="-parameters" />
       <module name="videoclub-application" options="-parameters" />
       <module name="videoclub-domain" options="-parameters" />
+      <module name="videoclub-persistence-h2" options="-parameters" />
       <module name="videoclub-persistence-mongodb" options="-parameters" />
       <module name="videoclub-rest-web" options="-parameters" />
     </option>

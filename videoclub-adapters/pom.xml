@@ -17,5 +17,6 @@
     <modules>
         <module>videoclub-persistence-mongodb</module>
         <module>videoclub-rest-web</module>
+        <module>videoclub-persistence-h2</module>
     </modules>
 </project>

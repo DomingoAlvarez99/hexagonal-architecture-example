@@ -33,7 +33,6 @@ public class MovieController {
 
     @GetMapping(ID_MAPPING)
     public ResponseEntity<Movie> readById(@PathVariable("id") String id) {
-        //return ResponseEntity.ok(Movie.builder().build());
         return ResponseEntity.ok(movieService.readById(id));
     }
 

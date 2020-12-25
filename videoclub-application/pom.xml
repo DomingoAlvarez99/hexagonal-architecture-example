@@ -27,6 +27,12 @@
             <artifactId>videoclub-persistence-mongodb</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!-- H2 -->
+        <dependency>
+            <groupId>org.dalvarez.videoclub</groupId>
+            <artifactId>videoclub-persistence-h2</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!-- Rest Web -->
         <dependency>
             <groupId>org.dalvarez.videoclub</groupId>
